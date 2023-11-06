@@ -43,9 +43,10 @@ ol {
 
 .content {
   display: grid;
-  grid-template-columns: 711px 417px;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: flex-end;
+  width: 1140px;
   column-gap: 30px;
 }
 
@@ -57,6 +58,7 @@ ol {
 
 .result__video-container {
   position: relative;
+  width: 711px;
   height: 386px;
 }
 
@@ -218,7 +220,8 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 23px;
+  padding: 2px 0 0;
 }
 
 .title {
@@ -235,8 +238,8 @@ ol {
 }
 
 .content__list {
-  position: relative;     
-  height: 294px;
+  position: relative; 
+  height: 296px;
   overflow: auto;
 }
 
@@ -273,8 +276,7 @@ ol {
 
 .content__video-card {
   display: grid;
-  grid-template-columns: 200px 194px;
-  grid-template-rows: 1fr;
+  grid-template-columns: 200px 1fr;
   padding: 2px;
 }
 
@@ -297,7 +299,7 @@ ol {
 }
 
 .content__video-card-description {
-  max-width: 194px;
+  max-width: 200px;
   font-weight: 400;
   line-height: 0.9;
   white-space: nowrap;
@@ -306,7 +308,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 100%;
+  width: 194px;
   height: 103px;
   object-fit: cover;
   object-position: center;
