@@ -43,9 +43,10 @@ ol {
 
 .content {
   display: grid;
-  grid-template-columns: 711px 419px;
+  grid-template-columns: 711px 1fr;
   justify-content: center;
   align-items: flex-end;
+  width: 1140px;
   column-gap: 30px;
 }
 
